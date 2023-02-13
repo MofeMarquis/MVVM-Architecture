@@ -35,7 +35,7 @@ public class NoteRepository {
         new deleteAllNoteAsyncTask(noteDao).execute();
     }
 
-    public LiveData<List<Note>> getAllNotes(Note note){
+    public LiveData<List<Note>> getAllNotes(){
         return allNotes;
     }
 
